@@ -1,10 +1,20 @@
 /**
 @Author Amit
-@Version 1.0
+
+@Version 2.0
+
 */
 
 class OopsBannerApp{
 	public static void main(String args[]){
-		System.out.print("OOPS");
+
+		System.out.println("    **        **     *******    ****  ");
+		System.out.println("  **  **    **  **   **    *  **     ");
+		System.out.println(" **    **  **    **  **    *  **       ");
+		System.out.println(" **    **  **    **  *******   *****   ");
+		System.out.println(" **    **  **    **  **        *****  ");
+		System.out.println(" **    **  **    **  **            **        ");
+		System.out.println("  ** **     ** **    **            **       ");
+		System.out.println("    **        **     **        ****");
 	}
 }
