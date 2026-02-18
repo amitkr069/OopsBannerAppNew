@@ -1,20 +1,18 @@
 /**
 @Author Amit
 
-@Version 2.0
+@Version 3.0
 
 */
 
 class OopsBannerApp{
 	public static void main(String args[]){
-
-		System.out.println("    **        **     *******    ****  ");
-		System.out.println("  **  **    **  **   **    *  **     ");
-		System.out.println(" **    **  **    **  **    *  **       ");
-		System.out.println(" **    **  **    **  *******   *****   ");
-		System.out.println(" **    **  **    **  **        *****  ");
-		System.out.println(" **    **  **    **  **            **        ");
-		System.out.println("  ** **     ** **    **            **       ");
-		System.out.println("    **        **     **        ****");
+		System.out.println(String.join(" ","    **    ","    **    "," ******* ","   ****  "));
+		System.out.println(String.join(" ","  **  **  ","  **  **  "," **    * "," **      "));
+		System.out.println(String.join(" "," **    ** "," **    ** "," **    * ","**       "));
+		System.out.println(String.join(" "," **    ** "," **    ** "," ******* ","  *****   "));
+		System.out.println(String.join(" "," **    ** "," **    ** "," **      ","      **  "));
+		System.out.println(String.join(" ","  **  **  ","  **  **  "," **      "," **   **  "));
+		System.out.println(String.join(" ","    **    ","    **    "," **      ","   ****   "));
 	}
 }
