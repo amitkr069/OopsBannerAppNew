@@ -1,26 +1,19 @@
-/**
-@Author Amit
-
-@Version 6.0
-
-*/
-
-// this is for printing O pattern using method
-class OopsBannerApp{
-	public static String[] getOPattern(){
-		return new String[]{
-			"    **    ",
-			"  **  **  ",
-			" **    ** ",
-			" **    ** ",
-			" **    ** ",
-			"  **  **  ",
-			"    **    "
-		};
+class Banner{
+    static class GetBanners{
+        public static String[] getOPattern(){
+    		return new String[]{
+    			"    **    ",
+    			"  **  **  ",
+    			" **    ** ",
+    			" **    ** ",
+    			" **    ** ",
+    			"  **  **  ",
+    			"    **    "
+    		};
 		
-	}
-	
-	public static String[] getPPattern(){
+	    }
+	    
+	    public static String[] getPPattern(){
 		return new String[]{
 			" ******* ",
 			" **    * ",
@@ -44,22 +37,20 @@ class OopsBannerApp{
 			"   ****   "
 		};
 	}
-	public static void main(String[] args) {
-        // System.out.println("Try programiz.pro");
+    }
+    
+}
+
+class OopsBanerApp {
+    public static void main(String[] args) {
+        Banner.GetBanners banner = new Banner.GetBanners();
         
-        
-        
-        
-        String[] OPattern = getOPattern();
-		String[] PPattern = getPPattern();
-		String[] SPattern = getSPattern();
+        String[] OPattern = banner.getOPattern();
+		String[] PPattern = banner.getPPattern();
+		String[] SPattern = banner.getSPattern();
 		
 		for(int i = 0; i<OPattern.length; i++){
 			System.out.println(OPattern[i] + " " + OPattern[i] + " " + PPattern[i] + " " + SPattern[i]);
 		}
-        
-        // System.out.println(line[0]);
-        
-        
     }
 }
