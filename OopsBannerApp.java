@@ -10,7 +10,7 @@ class OopsBannerApp{
         
         String line[] = new String[7]; //initializing string array of size 7;
         
-        line[0] = String.join(" ","    **    ","    **    "," ******* ","   ****  "); .// insertring the pattern row by row using string.join
+        line[0] = String.join(" ","    **    ","    **    "," ******* ","   ****  "); // insertring the pattern row by row using string.join
         
         line[1] = String.join(" ","  **  **  ","  **  **  "," **    * "," **      ");
         
