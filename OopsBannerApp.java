@@ -1,8 +1,9 @@
 /**
 @Author Amit
-
 @Version 3.0
 
+This Use Case 3;
+This code is to print OOPS banner in star pattern using String.join() method.
 */
 
 class OopsBannerApp{
