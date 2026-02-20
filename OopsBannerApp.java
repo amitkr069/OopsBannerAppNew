@@ -1,6 +1,6 @@
 /**
 @Author Amit
-@Version 2.0
+@Version 8.0
 This is Use Case 8.
 this code is to print OOPS banner in star pattern HashMap and String builder.
 */
@@ -50,7 +50,7 @@ class OopsBannerApp {
     
     public static void printBanner(String message, HashMap<Character, String[]> banner){
         for(int i = 0; i<7; i++){ // iterating for 7 times
-			StringBuilder sb = new StringBuilder(); // Creating the String Builder App
+			StringBuilder sb = new StringBuilder(); // Creating the String Builder object(sb)
             for(char c: message.toCharArray()){ //iterating through each message(oops) character by character. this will act as key
                 //System.out.print(banner.get(c)[i] + " ");
 				String[] pattern = banner.get(c); // getting the value of the key and storing it in String array "Pattern"
